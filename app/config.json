@@ -1,0 +1,5 @@
+{
+  "app_name": "MoviesETL",
+  "source_data_path": "data/ml-latest-small",
+  "output_data_path": "data/output"
+}
