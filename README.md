@@ -8,4 +8,4 @@ This application uses MovieLens data set as a source data. This data can be down
 App development steps:  
 [v1.0](https://github.com/pchrabka/pySpark-pyData/tree/v1.0) - Initial version  
 [v2.0](https://github.com/pchrabka/pySpark-pyData/tree/v2.0) - Added config file  
-[v3.0](https://github.com/pchrabka/pySpark-pyData/tree/v3.0) - Added config file
+[v3.0](https://github.com/pchrabka/pySpark-pyData/tree/v3.0) - Added main.py
