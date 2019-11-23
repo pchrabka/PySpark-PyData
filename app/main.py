@@ -15,7 +15,7 @@ def main():
     """ Main function excecuted by spark-submit command"""
     args = _parse_arguments()
 
-    with open("app/config.json", "r") as config_file:
+    with open("config.json", "r") as config_file:
         config = json.load(config_file)
 
     spark = SparkSession.builder.appName(config.get("app_name")).getOrCreate()
