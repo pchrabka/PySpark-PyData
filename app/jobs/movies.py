@@ -1,4 +1,5 @@
 from pyspark.sql.functions import col, expr
+from shared.udfs import get_movie_title_udf, get_movie_year_udf
 
 
 def _extract_data(spark, config):
@@ -14,8 +15,8 @@ def _transform_data(raw_df):
     """ Transform raw dataframe """
     return raw_df.select(
         col("movieId"),
-        expr("substring(title, 1, length(title)-6)").alias("title"),
-        col("title").substr(-5, 4).alias("year"),
+        get_movie_title_udf("title").alias("title"),
+        get_movie_year_udf("title").alias("year"),
     )
 
 
