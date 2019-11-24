@@ -11,4 +11,5 @@ App development steps:
 [v3.0](https://github.com/pchrabka/pySpark-pyData/tree/v3.0) - Added main.py  
 [v4.0](https://github.com/pchrabka/pySpark-pyData/tree/v4.0) - Added Makefile  
 [v5.0](https://github.com/pchrabka/pySpark-pyData/tree/v5.0) - Added UDFs  
-[v6.0](https://github.com/pchrabka/pySpark-pyData/tree/v6.0) - Added third party dependency 
+[v6.0](https://github.com/pchrabka/pySpark-pyData/tree/v6.0) - Added third party dependency  
+[v7.0](https://github.com/pchrabka/pySpark-pyData/tree/v7.0) - Added tests
